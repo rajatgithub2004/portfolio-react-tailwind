@@ -46,12 +46,28 @@ function SocialLinks() {
 
   ]
   return (
-    <div className='lg:flex flex-col lg:top-[35%] lg:left-0 fixed'>
-      <ul>       
-        <li className={'ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px] text-white flex justify-between items-center w-40 h-14 px-4 bg-gray-700 rounded-tr-md' }><a href={'https://www.linkedin.com/in/rajat-sharma-ba1226291/'} className='flex justify-between items-center w-full text-white' target='_blank'><>Linkedin <FaLinkedin size={30} /></></a></li>      
-        <li className={'ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px] text-white flex justify-between items-center w-40 h-14 px-4 bg-gray-700 ' }><a href={'https://github.com/rajatgithub2004'} className='flex justify-between items-center w-full text-white' target='_blank'><>Github <FaGithub size={30} /></></a></li>      
-        <li className={'ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px] text-white flex justify-between items-center w-40 h-14 px-4 bg-gray-700' }><a href={'mailto:websphereinnovations@1999@gmail.com'} className='flex justify-between items-center w-full text-white' target='_blank'><>Mail <HiOutlineMail size={30} /></></a></li>      
-        <li className={'ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px] text-white flex justify-between items-center w-40 h-14 px-4 bg-gray-700 rounded-br-md' }><a href={'https://www.instagram.com/websphere_innovations/'} className='flex justify-between items-center w-full text-white' target='_blank'><>Instagram <FaInstagram size={30} /></></a></li>      
+    <div className="flex flex-row flex-wrap justify-center items-center">
+      <ul className=" gap-5  text-white flex justify-between items-center w-auto h-14 px-4 bg-gray-700 rounded-tr-md rounded-br-md rounded-tl-md rounded-bl-md">
+        <li>
+          <a href={'https://www.linkedin.com/in/rajat-sharma-ba1226291/'} target="_blank" className="flex items-center justify-center w-full text-white" rel="noreferrer">
+            <FaLinkedin size={30} />
+          </a>
+        </li>
+        <li>
+          <a href={'https://github.com/rajatgithub2604'} target="_blank" className="flex items-center justify-center w-full text-white" rel="noreferrer">
+            <FaGithub size={30} />
+          </a>
+        </li>
+        <li>
+          <a href={'mailto:websphererinnovations@1999@gmail.com'} className="flex items-center justify-center w-full text-white" target="_blank">
+            <HiOutlineMail size={30} />
+          </a>
+        </li>
+        <li>
+          <a href={'https://www.instagram.com/websphereinnovations/'} className="flex items-center justify-center w-full text-white" target="_blank" rel="noreferrer">
+            <FaInstagram size={30} />
+          </a>
+        </li>
       </ul>
     </div>
   )
