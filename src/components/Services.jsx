@@ -16,7 +16,7 @@ function Services() {
             <img className='rounded-md duration-200 hover:scale-105 cursor-pointer' src={videoedit}  alt='graphicdesign' />
             <div className='flex items-center flex-col justify-center'>
               <h1 className='font-bold mb-3'>Video Editing</h1>
-              <p className="font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel facilis repudiandae nihil cupiditate, tempore temporibus eum dolor natus at ipsam.</p>
+              <p className="font-normal">A polished video edit boosts brand visibility, engages audiences effectively, and drives conversion. Our team has experience in editing videos for all businesses from startups to big brands.</p>
             </div>
           </div>
         
@@ -25,7 +25,7 @@ function Services() {
             <img className='rounded-md duration-200 hover:scale-105 cursor-pointer' src={graphicdesign}  alt='graphicdesign' />
             <div className='flex items-center flex-col justify-center'>
               <h1 className='font-bold mb-3'>Graphic Designing</h1>
-              <p className="font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel facilis repudiandae nihil cupiditate, tempore temporibus eum dolor natus at ipsam.</p>
+              <p className="font-normal">We are your one-stop solution for your complete graphic design requirements. Uplift your brand's perception through our unmatched creative solutions. </p>
             </div>
           </div>
         
@@ -33,7 +33,7 @@ function Services() {
             <img className='rounded-md duration-200 hover:scale-105 cursor-pointer' src={webdev}  alt='graphicdesign' />
             <div className='flex items-center flex-col justify-center'>
               <h1 className='mb-3 font-bold'>Website Building</h1>
-              <p className="font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel facilis repudiandae nihil cupiditate, tempore temporibus eum dolor natus at ipsam.</p>
+              <p className="font-normal">We build exceptional web experiences making the best use of technology and innovation. Our team has experience in developing websites for all businesses from startups to big brands.</p>
             </div>
           </div>
         
