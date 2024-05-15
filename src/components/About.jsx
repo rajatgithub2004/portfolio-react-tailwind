@@ -8,10 +8,12 @@ function About() {
           <p className='text-4xl font-bold inline border-b-4 border-gray-600'>About Us</p>
         </div>
         <p className='text-xl mt-15'>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet deleniti sint id dicta culpa, dignissimos temporibus beatae. Sequi accusantium natus repellendus perferendis, ipsa, perspiciatis aliquam mollitia aperiam maxime similique dolorum.
+          At WebSphere INNOVATIONS, we specialize in crafting captivating logos, dynamic websites, and polished video edits to elevate your brand's digital presence.
         </p>
         <br />
-        <p className='text-xl'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsa amet saepe. Facilis corporis voluptatem ipsum eligendi fugiat quisquam fugit!</p>
+        <p className='text-xl'>
+          With extensive experience in web development, video editing, and graphic designing, We bring a diverse skill set to every project. From crafting visually appealing websites that offer seamless user experiences to producing captivating video content and designing striking visuals.
+        </p>
       </div>
     </div>
   )
