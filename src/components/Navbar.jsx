@@ -27,7 +27,7 @@ function Navbar() {
 
   ]
   return (
-    <div className='flex justify-between items-center w-full h-15 text-black fixed'>
+    <div className='flex justify-between items-center w-full h-15 text-black'>
       <div >
         <h1 className='px-0 text-lg md:text-2xl md:ml-1 '>WebSphere INNOVATIONS</h1>
       </div>
