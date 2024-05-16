@@ -9,7 +9,8 @@ function Contact() {
           <p className='py-6'>Submit the form below to get in contact with us</p>
         </div>
         <div className='flex justify-center items-center'>
-          <form action='' method='POST' className='flex flex-col w-full md:w-1/2'>
+          <form action="https://api.web3forms.com/submit" method='POST' className='flex flex-col w-full md:w-1/2'>
+          <input type="hidden" name="access_key" value="6bdbcdbe-a513-42e2-8f57-1b56accb6d30"/>
             <input type='text' name="name" placeholder='Enter your name..' className='p-2 border-2 rounded-md focus:outline-none bg-transparet text-black'/>
             <input type='text' name="email" placeholder='Enter your email..' className='my-4 p-2 border-2 rounded-md focus:outline-none bg-transparet text-black'/>
             <textarea name='message' placeholder='Enter your message...' rows='10' className='p-2 focus:outline-none bg-transparent border-2 text-black' />
