@@ -92,7 +92,7 @@ function Experience() {
     <div name="experience" className='w-full mt-10'> 
       <div className='text-black max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
-          <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Exprerience</p>
+          <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experience</p>
           <p className='py-6'>Technologies our team can work with</p>
         </div>
         <div className='w-full grid grid-col-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0'> 
