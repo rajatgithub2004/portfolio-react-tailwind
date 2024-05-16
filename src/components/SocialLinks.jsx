@@ -64,7 +64,7 @@ function SocialLinks() {
           </a>
         </li>
         <li>
-          <a href={'https://www.instagram.com/websphereinnovations/'} className="flex items-center justify-center w-full text-white" target="_blank" rel="noreferrer">
+          <a href={'https://www.instagram.com/websphere_innovations/'} className="flex items-center justify-center w-full text-white" target="_blank" rel="noreferrer">
             <FaInstagram size={30} />
           </a>
         </li>
