@@ -54,7 +54,7 @@ function SocialLinks() {
           </a>
         </li>
         <li>
-          <a href={'https://github.com/rajatgithub2604'} target="_blank" className="flex items-center justify-center w-full text-white" rel="noreferrer">
+          <a href={'https://github.com/rajatgithub2004'} target="_blank" className="flex items-center justify-center w-full text-white" rel="noreferrer">
             <FaGithub size={30} />
           </a>
         </li>
@@ -64,7 +64,7 @@ function SocialLinks() {
           </a>
         </li>
         <li>
-          <a href={'https://www.instagram.com/websphereinnovations/'} className="flex items-center justify-center w-full text-white" target="_blank" rel="noreferrer">
+          <a href={'https://www.instagram.com/websphere_innovations/'} className="flex items-center justify-center w-full text-white" target="_blank" rel="noreferrer">
             <FaInstagram size={30} />
           </a>
         </li>
