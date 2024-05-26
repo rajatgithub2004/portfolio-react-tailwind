@@ -11,7 +11,7 @@ function SocialLinks() {
           Linkedin <FaLinkedin size={30} />
         </>
       ),
-      href : 'https://www.linkedin.com/in/rajat-sharma-ba1226291/',
+      href : 'https://www.linkedin.com/in/websphere-innovations-387b07307/',
       style : 'rounded-tr-md'
     },
     {
@@ -46,15 +46,15 @@ function SocialLinks() {
 
   ]
   return (
-    <div className="flex flex-row flex-wrap justify-center items-center">
-      <ul className=" gap-5  text-white flex justify-between items-center w-auto h-14 px-4 bg-gray-700 rounded-tr-md rounded-br-md rounded-tl-md rounded-bl-md">
+    <div className="flex flex-row md:flex-col flex-wrap justify-center items-center">
+      <ul className=" gap-5 mb-[3rem] text-white flex justify-between items-center w-auto h-14 px-4 bg-gray-700 rounded-tr-md rounded-br-md rounded-tl-md rounded-bl-md">
         <li>
-          <a href={'https://www.linkedin.com/in/rajat-sharma-ba1226291/'} target="_blank" className="flex items-center justify-center w-full text-white" rel="noreferrer">
+          <a href={'https://www.linkedin.com/in/websphere-innovations-387b07307/'} target="_blank" className="flex items-center justify-center w-full text-white" rel="noreferrer">
             <FaLinkedin size={30} />
           </a>
         </li>
         <li>
-          <a href={'https://github.com/rajatgithub2004'} target="_blank" className="flex items-center justify-center w-full text-white" rel="noreferrer">
+          <a href={'https://github.com/rajatgithub2604'} target="_blank" className="flex items-center justify-center w-full text-white" rel="noreferrer">
             <FaGithub size={30} />
           </a>
         </li>
@@ -64,11 +64,12 @@ function SocialLinks() {
           </a>
         </li>
         <li>
-          <a href={'https://www.instagram.com/websphere_innovations/'} className="flex items-center justify-center w-full text-white" target="_blank" rel="noreferrer">
+          <a href={'https://www.instagram.com/websphereinnovations/'} className="flex items-center justify-center w-full text-white" target="_blank" rel="noreferrer">
             <FaInstagram size={30} />
           </a>
         </li>
       </ul>
+      <p>Copyright &#169;. WebSphere INNOVATIONS 2024-2027 All rights reserved</p>
     </div>
   )
 }
